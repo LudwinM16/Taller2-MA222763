@@ -1,0 +1,72 @@
+html{
+    background-color: whitesmoke;
+}
+
+.logoKarate{
+    width: 75px;
+    height: 70px;
+}
+.videos{
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    margin: 0 2px 15px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.videos .p{
+    font: 0.8em Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    text-align: justify;
+    color: #424242;
+}
+.cuadroVideos{
+    max-width: 1100px;
+    min-width: 700px;
+}
+.menu{
+    background-color: bisque;
+    display: flex;
+}
+#menuLista li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#menuLista{
+    font-size: 20px;
+}
+.logos{
+    display: flex;
+}
+.derechos{
+    display: flex ;
+}
+ul{
+    margin-left: 30%;
+}
+li{
+    margin-left: 20px;
+}
+a.cubierta:link{
+    text-decoration: none;
+}
+a.cubierta:hover, a.cubierta:active{
+    background: red;
+}
+.columnas{
+    column-count: 2;
+    column-gap: 150px;
+    margin-left: 45px;
+}
+.texto{
+    position: fixed;
+}
+.videosPrincipal{
+    text-align: center;
+    font-size: xx-large;
+}
